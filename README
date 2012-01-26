@@ -1,0 +1,24 @@
+NAME
+    Task::Perinci - Install all Perinci:: modules
+
+VERSION
+    version 0.03
+
+DESCRIPTION
+    This task will install all Perinci:: modules.
+
+TASK CONTENTS
+  Included modules
+   Rinci
+   Riap
+   Perinci
+   Perinci::Examples
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
