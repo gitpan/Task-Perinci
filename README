@@ -2,17 +2,34 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.03
+    version 0.04
 
 DESCRIPTION
     This task will install all Perinci:: modules.
 
 TASK CONTENTS
   Included modules
-   Rinci
-   Riap
    Perinci
+   Perinci::BashComplete
    Perinci::Examples
+   Perinci::Object
+   Perinci::Sub::ConvertArgs::Array
+   Perinci::Sub::DepChecker
+   Perinci::Sub::Gen::AccessTable
+   Perinci::Sub::GetArgs::Argv
+   Perinci::Sub::GetArgs::Array
+   Perinci::Sub::property::drops_privilege
+   Perinci::Sub::property::result_postfilter
+   Perinci::Sub::property::retry
+   Perinci::Sub::property::timeout
+   Perinci::Sub::Wrapper
+   Perinci::To::HTML
+   Perinci::To::POD
+   Perinci::To::Text
+   Perinci::Use
+   Pod::Weaver::Plugin::Perinci
+   Riap
+   Rinci
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 

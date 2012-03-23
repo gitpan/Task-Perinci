@@ -15,10 +15,27 @@ meta-spec:
 name: Task-Perinci
 requires:
   Perinci: 0
+  Perinci::BashComplete: 0
   Perinci::Examples: 0
+  Perinci::Object: 0
+  Perinci::Sub::ConvertArgs::Array: 0
+  Perinci::Sub::DepChecker: 0
+  Perinci::Sub::Gen::AccessTable: 0
+  Perinci::Sub::GetArgs::Argv: 0
+  Perinci::Sub::GetArgs::Array: 0
+  Perinci::Sub::Wrapper: 0
+  Perinci::Sub::property::drops_privilege: 0
+  Perinci::Sub::property::result_postfilter: 0
+  Perinci::Sub::property::retry: 0
+  Perinci::Sub::property::timeout: 0
+  Perinci::To::HTML: 0
+  Perinci::To::POD: 0
+  Perinci::To::Text: 0
+  Perinci::Use: 0
+  Pod::Weaver::Plugin::Perinci: 0
   Riap: 0
   Rinci: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-Perinci/
   repository: http://github.com/sharyanto/perl-Task-Perinci
-version: 0.03
+version: 0.04
