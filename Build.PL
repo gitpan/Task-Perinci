@@ -17,13 +17,15 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-Perinci",
-  "dist_version" => "0.04",
+  "dist_version" => "0.05",
   "license" => "perl",
   "module_name" => "Task::Perinci",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "Perinci" => 0,
+    "Perinci::Access::HTTP::Client" => 0,
+    "Perinci::Access::HTTP::Server" => 0,
     "Perinci::BashComplete" => 0,
     "Perinci::Examples" => 0,
     "Perinci::Object" => 0,

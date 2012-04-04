@@ -1,6 +1,6 @@
 package Task::Perinci;
 
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 1;
 # ABSTRACT: Install all Perinci:: modules
@@ -15,7 +15,7 @@ Task::Perinci - Install all Perinci:: modules
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
@@ -26,6 +26,10 @@ This task will install all Perinci:: modules.
 =head2 Included modules
 
 =head3 L<Perinci>
+
+=head3 L<Perinci::Access::HTTP::Client>
+
+=head3 L<Perinci::Access::HTTP::Server>
 
 =head3 L<Perinci::BashComplete>
 

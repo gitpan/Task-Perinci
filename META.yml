@@ -15,6 +15,8 @@ meta-spec:
 name: Task-Perinci
 requires:
   Perinci: 0
+  Perinci::Access::HTTP::Client: 0
+  Perinci::Access::HTTP::Server: 0
   Perinci::BashComplete: 0
   Perinci::Examples: 0
   Perinci::Object: 0
@@ -38,4 +40,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-Perinci/
   repository: http://github.com/sharyanto/perl-Task-Perinci
-version: 0.04
+version: 0.05
