@@ -35,6 +35,8 @@
             "Perinci::Sub::ConvertArgs::Array" : 0,
             "Perinci::Sub::DepChecker" : 0,
             "Perinci::Sub::Gen::AccessTable" : 0,
+            "Perinci::Sub::Gen::AccessTable::DBI" : 0,
+            "Perinci::Sub::Gen::Undoable" : 0,
             "Perinci::Sub::GetArgs::Argv" : 0,
             "Perinci::Sub::GetArgs::Array" : 0,
             "Perinci::Sub::Wrapper" : 0,
@@ -59,6 +61,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-Perinci"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }
 
