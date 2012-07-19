@@ -2,7 +2,7 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.06
+    version 0.07
 
 DESCRIPTION
     This task will install all Perinci:: modules.
@@ -12,6 +12,8 @@ TASK CONTENTS
    Perinci
    Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
+   Perinci::Access::TCP::Client
+   Perinci::Access::TCP::Server
    Perinci::BashComplete
    Perinci::Examples
    Perinci::Object

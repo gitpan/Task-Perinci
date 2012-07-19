@@ -17,7 +17,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-Perinci",
-  "dist_version" => "0.06",
+  "dist_version" => "0.07",
   "license" => "perl",
   "module_name" => "Task::Perinci",
   "recommends" => {},
@@ -26,6 +26,8 @@ my %module_build_args = (
     "Perinci" => 0,
     "Perinci::Access::HTTP::Client" => 0,
     "Perinci::Access::HTTP::Server" => 0,
+    "Perinci::Access::TCP::Client" => 0,
+    "Perinci::Access::TCP::Server" => 0,
     "Perinci::BashComplete" => 0,
     "Perinci::Examples" => 0,
     "Perinci::Object" => 0,
