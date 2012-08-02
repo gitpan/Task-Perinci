@@ -2,7 +2,7 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.07
+    version 0.08
 
 DESCRIPTION
     This task will install all Perinci:: modules.
@@ -12,10 +12,12 @@ TASK CONTENTS
    Perinci
    Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
-   Perinci::Access::TCP::Client
-   Perinci::Access::TCP::Server
+   Perinci::Access::Simple::Client
+   Perinci::Access::Simple::Server::Pipe
+   Perinci::Access::Simple::Server::Socket
    Perinci::BashComplete
    Perinci::Examples
+   Perinci::Exporter
    Perinci::Object
    Perinci::Sub::ConvertArgs::Array
    Perinci::Sub::DepChecker
@@ -24,6 +26,8 @@ TASK CONTENTS
    Perinci::Sub::Gen::Undoable
    Perinci::Sub::GetArgs::Argv
    Perinci::Sub::GetArgs::Array
+   Perinci::Sub::property::curry
+   Perinci::Sub::property::dies_on_error
    Perinci::Sub::property::drops_privilege
    Perinci::Sub::property::result_postfilter
    Perinci::Sub::property::retry
@@ -33,6 +37,7 @@ TASK CONTENTS
    Perinci::To::POD
    Perinci::To::Text
    Perinci::Use
+   Perinci::Util
    Pod::Weaver::Plugin::Perinci
    Riap
    Rinci

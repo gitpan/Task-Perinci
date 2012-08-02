@@ -1,6 +1,6 @@
 package Task::Perinci;
 
-our $VERSION = '0.07'; # VERSION
+our $VERSION = '0.08'; # VERSION
 
 1;
 # ABSTRACT: Install all Perinci:: modules
@@ -15,7 +15,7 @@ Task::Perinci - Install all Perinci:: modules
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 DESCRIPTION
 
@@ -31,13 +31,17 @@ This task will install all Perinci:: modules.
 
 =head3 L<Perinci::Access::HTTP::Server>
 
-=head3 L<Perinci::Access::TCP::Client>
+=head3 L<Perinci::Access::Simple::Client>
 
-=head3 L<Perinci::Access::TCP::Server>
+=head3 L<Perinci::Access::Simple::Server::Pipe>
+
+=head3 L<Perinci::Access::Simple::Server::Socket>
 
 =head3 L<Perinci::BashComplete>
 
 =head3 L<Perinci::Examples>
+
+=head3 L<Perinci::Exporter>
 
 =head3 L<Perinci::Object>
 
@@ -54,6 +58,10 @@ This task will install all Perinci:: modules.
 =head3 L<Perinci::Sub::GetArgs::Argv>
 
 =head3 L<Perinci::Sub::GetArgs::Array>
+
+=head3 L<Perinci::Sub::property::curry>
+
+=head3 L<Perinci::Sub::property::dies_on_error>
 
 =head3 L<Perinci::Sub::property::drops_privilege>
 
@@ -72,6 +80,8 @@ This task will install all Perinci:: modules.
 =head3 L<Perinci::To::Text>
 
 =head3 L<Perinci::Use>
+
+=head3 L<Perinci::Util>
 
 =head3 L<Pod::Weaver::Plugin::Perinci>
 
