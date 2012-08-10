@@ -2,7 +2,7 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.08
+    version 0.09
 
 DESCRIPTION
     This task will install all Perinci:: modules.
@@ -10,32 +10,40 @@ DESCRIPTION
 TASK CONTENTS
   Included modules
    Perinci
+   Perinci::Access
+   Perinci::Access::Base
    Perinci::Access::HTTP::Client
    Perinci::Access::HTTP::Server
+   Perinci::Access::InProcess
    Perinci::Access::Simple::Client
    Perinci::Access::Simple::Server::Pipe
    Perinci::Access::Simple::Server::Socket
    Perinci::BashComplete
+   Perinci::Easy
    Perinci::Examples
    Perinci::Exporter
    Perinci::Object
+   Perinci::Result::Format
    Perinci::Sub::ConvertArgs::Array
+   Perinci::Sub::Dep::pm
    Perinci::Sub::DepChecker
+   Perinci::Sub::Gen
    Perinci::Sub::Gen::AccessTable
    Perinci::Sub::Gen::AccessTable::DBI
    Perinci::Sub::Gen::Undoable
    Perinci::Sub::GetArgs::Argv
    Perinci::Sub::GetArgs::Array
-   Perinci::Sub::property::curry
-   Perinci::Sub::property::dies_on_error
-   Perinci::Sub::property::drops_privilege
-   Perinci::Sub::property::result_postfilter
-   Perinci::Sub::property::retry
-   Perinci::Sub::property::timeout
+   Perinci::Sub::Property::curry
+   Perinci::Sub::Property::dies_on_error
+   Perinci::Sub::Property::drops_privilege
+   Perinci::Sub::Property::result_postfilter
+   Perinci::Sub::Property::retry
+   Perinci::Sub::Property::timeout
    Perinci::Sub::Wrapper
    Perinci::To::HTML
    Perinci::To::POD
    Perinci::To::Text
+   Perinci::Tx::Manager
    Perinci::Use
    Perinci::Util
    Pod::Weaver::Plugin::Perinci
