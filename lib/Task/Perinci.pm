@@ -1,6 +1,6 @@
 package Task::Perinci;
 
-our $VERSION = '0.09'; # VERSION
+our $VERSION = '0.10'; # VERSION
 
 1;
 # ABSTRACT: Install all Perinci:: modules
@@ -15,7 +15,7 @@ Task::Perinci - Install all Perinci:: modules
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 DESCRIPTION
 
@@ -66,8 +66,6 @@ This task will install all Perinci:: modules.
 =head3 L<Perinci::Sub::Gen::AccessTable>
 
 =head3 L<Perinci::Sub::Gen::AccessTable::DBI>
-
-=head3 L<Perinci::Sub::Gen::Undoable>
 
 =head3 L<Perinci::Sub::GetArgs::Argv>
 

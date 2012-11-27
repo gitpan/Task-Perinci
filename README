@@ -2,7 +2,7 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.09
+    version 0.10
 
 DESCRIPTION
     This task will install all Perinci:: modules.
@@ -30,7 +30,6 @@ TASK CONTENTS
    Perinci::Sub::Gen
    Perinci::Sub::Gen::AccessTable
    Perinci::Sub::Gen::AccessTable::DBI
-   Perinci::Sub::Gen::Undoable
    Perinci::Sub::GetArgs::Argv
    Perinci::Sub::GetArgs::Array
    Perinci::Sub::Property::curry

@@ -17,7 +17,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Task-Perinci",
-  "dist_version" => "0.09",
+  "dist_version" => "0.10",
   "license" => "perl",
   "module_name" => "Task::Perinci",
   "recommends" => {},
@@ -44,7 +44,6 @@ my %module_build_args = (
     "Perinci::Sub::Gen" => 0,
     "Perinci::Sub::Gen::AccessTable" => 0,
     "Perinci::Sub::Gen::AccessTable::DBI" => 0,
-    "Perinci::Sub::Gen::Undoable" => 0,
     "Perinci::Sub::GetArgs::Argv" => 0,
     "Perinci::Sub::GetArgs::Array" => 0,
     "Perinci::Sub::Property::curry" => 0,
