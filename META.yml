@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,12 +21,14 @@ requires:
   Perinci::Access::HTTP::Server: 0
   Perinci::Access::InProcess: 0
   Perinci::Access::Simple::Client: 0
-  Perinci::Access::Simple::Server::Pipe: 0
-  Perinci::Access::Simple::Server::Socket: 0
+  Perinci::Access::Simple::Server: 0
   Perinci::BashComplete: 0
+  Perinci::CmdLine: 0
   Perinci::Easy: 0
   Perinci::Examples: 0
+  Perinci::Examples::Bin: 0
   Perinci::Exporter: 0
+  Perinci::Gen::ForModule: 0
   Perinci::Object: 0
   Perinci::Result::Format: 0
   Perinci::Sub::ConvertArgs::Array: 0
@@ -40,9 +42,9 @@ requires:
   Perinci::Sub::Property::curry: 0
   Perinci::Sub::Property::dies_on_error: 0
   Perinci::Sub::Property::drops_privilege: 0
-  Perinci::Sub::Property::result_postfilter: 0
   Perinci::Sub::Property::retry: 0
   Perinci::Sub::Property::timeout: 0
+  Perinci::Sub::PropertyUtil: 0
   Perinci::Sub::Wrapper: 0
   Perinci::To::HTML: 0
   Perinci::To::POD: 0
@@ -50,10 +52,12 @@ requires:
   Perinci::Tx::Manager: 0
   Perinci::Use: 0
   Perinci::Util: 0
+  Perinci::Web: 0
   Pod::Weaver::Plugin::Perinci: 0
   Riap: 0
   Rinci: 0
+  Rinci::Schema: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-Perinci/
   repository: http://github.com/sharyanto/perl-Task-Perinci
-version: 0.10
+version: 0.11

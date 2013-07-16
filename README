@@ -2,7 +2,7 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.10
+    version 0.11
 
 DESCRIPTION
     This task will install all Perinci:: modules.
@@ -16,12 +16,14 @@ TASK CONTENTS
    Perinci::Access::HTTP::Server
    Perinci::Access::InProcess
    Perinci::Access::Simple::Client
-   Perinci::Access::Simple::Server::Pipe
-   Perinci::Access::Simple::Server::Socket
+   Perinci::Access::Simple::Server
    Perinci::BashComplete
+   Perinci::CmdLine
    Perinci::Easy
    Perinci::Examples
+   Perinci::Examples::Bin
    Perinci::Exporter
+   Perinci::Gen::ForModule
    Perinci::Object
    Perinci::Result::Format
    Perinci::Sub::ConvertArgs::Array
@@ -35,9 +37,11 @@ TASK CONTENTS
    Perinci::Sub::Property::curry
    Perinci::Sub::Property::dies_on_error
    Perinci::Sub::Property::drops_privilege
-   Perinci::Sub::Property::result_postfilter
    Perinci::Sub::Property::retry
    Perinci::Sub::Property::timeout
+   Perinci::Sub::PropertyUtil
+    # =pkg Perinci::Sub::To::ReForm
+
    Perinci::Sub::Wrapper
    Perinci::To::HTML
    Perinci::To::POD
@@ -45,14 +49,16 @@ TASK CONTENTS
    Perinci::Tx::Manager
    Perinci::Use
    Perinci::Util
+   Perinci::Web
    Pod::Weaver::Plugin::Perinci
    Riap
    Rinci
+   Rinci::Schema
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2012 by Steven Haryanto.
+    This software is copyright (c) 2013 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
