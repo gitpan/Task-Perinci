@@ -3,11 +3,14 @@ abstract: 'Install all Perinci:: modules'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 build_requires:
+  Capture::Tiny: 0
   Module::Build: 0.3601
+  Test::More: 0.88
+  blib: 0
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,7 +22,7 @@ requires:
   Perinci::Access::Base: 0
   Perinci::Access::HTTP::Client: 0
   Perinci::Access::HTTP::Server: 0
-  Perinci::Access::InProcess: 0
+  Perinci::Access::Perl: 0
   Perinci::Access::Simple::Client: 0
   Perinci::Access::Simple::Server: 0
   Perinci::BashComplete: 0
@@ -60,4 +63,4 @@ requires:
 resources:
   homepage: http://search.cpan.org/dist/Task-Perinci/
   repository: http://github.com/sharyanto/perl-Task-Perinci
-version: 0.11
+version: 0.12

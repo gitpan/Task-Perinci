@@ -1,12 +1,12 @@
 package Task::Perinci;
 
-our $VERSION = '0.11'; # VERSION
+our $VERSION = '0.12'; # VERSION
 
 1;
 # ABSTRACT: Install all Perinci:: modules
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -15,7 +15,7 @@ Task::Perinci - Install all Perinci:: modules
 
 =head1 VERSION
 
-version 0.11
+version 0.12
 
 =head1 DESCRIPTION
 
@@ -35,7 +35,7 @@ This task will install all Perinci:: modules.
 
 =head3 L<Perinci::Access::HTTP::Server>
 
-=head3 L<Perinci::Access::InProcess>
+=head3 L<Perinci::Access::Perl>
 
 =head3 L<Perinci::Access::Simple::Client>
 
@@ -125,4 +125,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
