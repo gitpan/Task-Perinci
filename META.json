@@ -26,6 +26,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Gen::Test::Rinci::FuncResult" : "0",
             "Perinci" : "0",
             "Perinci::Access" : "0",
             "Perinci::Access::Base" : "0",
@@ -69,8 +70,7 @@
             "Riap" : "0",
             "Rinci" : "0",
             "Rinci::Schema" : "0",
-            "Test::Rinci" : "0",
-            "Test::Rinci::FuncResult" : "0"
+            "Test::Rinci" : "0"
          }
       },
       "test" : {
@@ -88,6 +88,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-Perinci"
       }
    },
-   "version" : "0.14"
+   "version" : "0.15"
 }
 

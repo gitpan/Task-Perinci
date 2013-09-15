@@ -1,6 +1,6 @@
 package Task::Perinci;
 
-our $VERSION = '0.14'; # VERSION
+our $VERSION = '0.15'; # VERSION
 
 1;
 # ABSTRACT: Install all Perinci-related modules
@@ -15,7 +15,7 @@ Task::Perinci - Install all Perinci-related modules
 
 =head1 VERSION
 
-version 0.14
+version 0.15
 
 =head1 DESCRIPTION
 
@@ -115,7 +115,7 @@ This task will install all Perinci-related modules.
 
 =head3 L<Test::Rinci>
 
-=head3 L<Test::Rinci::FuncResult>
+=head3 L<Gen::Test::Rinci::FuncResult>
 
 =head1 AUTHOR
 

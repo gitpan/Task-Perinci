@@ -16,6 +16,7 @@ meta-spec:
   version: 1.4
 name: Task-Perinci
 requires:
+  Gen::Test::Rinci::FuncResult: 0
   Perinci: 0
   Perinci::Access: 0
   Perinci::Access::Base: 0
@@ -60,8 +61,7 @@ requires:
   Rinci: 0
   Rinci::Schema: 0
   Test::Rinci: 0
-  Test::Rinci::FuncResult: 0
 resources:
   homepage: http://search.cpan.org/dist/Task-Perinci/
   repository: http://github.com/sharyanto/perl-Task-Perinci
-version: 0.14
+version: 0.15

@@ -20,6 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Task::Perinci",
   "PREREQ_PM" => {
+    "Gen::Test::Rinci::FuncResult" => 0,
     "Perinci" => 0,
     "Perinci::Access" => 0,
     "Perinci::Access::Base" => 0,
@@ -63,15 +64,14 @@ my %WriteMakefileArgs = (
     "Riap" => 0,
     "Rinci" => 0,
     "Rinci::Schema" => 0,
-    "Test::Rinci" => 0,
-    "Test::Rinci::FuncResult" => 0
+    "Test::Rinci" => 0
   },
   "TEST_REQUIRES" => {
     "Capture::Tiny" => 0,
     "Test::More" => "0.88",
     "blib" => 0
   },
-  "VERSION" => "0.14",
+  "VERSION" => "0.15",
   "test" => {
     "TESTS" => "t/*.t"
   }
