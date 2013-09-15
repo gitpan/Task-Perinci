@@ -14,14 +14,9 @@
    },
    "name" : "Task-Perinci",
    "prereqs" : {
-      "build" : {
-         "requires" : {
-            "Module::Build" : "0.3601"
-         }
-      },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "develop" : {
@@ -73,7 +68,9 @@
             "Pod::Weaver::Plugin::Perinci" : "0",
             "Riap" : "0",
             "Rinci" : "0",
-            "Rinci::Schema" : "0"
+            "Rinci::Schema" : "0",
+            "Test::Rinci" : "0",
+            "Test::Rinci::GenFuncTest" : "0"
          }
       },
       "test" : {
@@ -91,6 +88,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-Perinci"
       }
    },
-   "version" : "0.12"
+   "version" : "0.13"
 }
 

@@ -2,7 +2,7 @@ NAME
     Task::Perinci - Install all Perinci:: modules
 
 VERSION
-    version 0.12
+    version 0.13
 
 DESCRIPTION
     This task will install all Perinci:: modules.
@@ -54,6 +54,8 @@ TASK CONTENTS
    Riap
    Rinci
    Rinci::Schema
+   Test::Rinci
+   Test::Rinci::GenFuncTest
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 

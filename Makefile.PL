@@ -2,27 +2,24 @@
 use strict;
 use warnings;
 
-use Module::Build 0.3601;
 
 
-my %module_build_args = (
-  "build_requires" => {
-    "Module::Build" => "0.3601"
+use ExtUtils::MakeMaker 6.30;
+
+
+
+my %WriteMakefileArgs = (
+  "ABSTRACT" => "Install all Perinci:: modules",
+  "AUTHOR" => "Steven Haryanto <stevenharyanto\@gmail.com>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  "configure_requires" => {
-    "Module::Build" => "0.3601"
-  },
-  "dist_abstract" => "Install all Perinci:: modules",
-  "dist_author" => [
-    "Steven Haryanto <stevenharyanto\@gmail.com>"
-  ],
-  "dist_name" => "Task-Perinci",
-  "dist_version" => "0.12",
-  "license" => "perl",
-  "module_name" => "Task::Perinci",
-  "recommends" => {},
-  "recursive_test_files" => 1,
-  "requires" => {
+  "DISTNAME" => "Task-Perinci",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Task::Perinci",
+  "PREREQ_PM" => {
     "Perinci" => 0,
     "Perinci::Access" => 0,
     "Perinci::Access::Base" => 0,
@@ -65,20 +62,25 @@ my %module_build_args = (
     "Pod::Weaver::Plugin::Perinci" => 0,
     "Riap" => 0,
     "Rinci" => 0,
-    "Rinci::Schema" => 0
+    "Rinci::Schema" => 0,
+    "Test::Rinci" => 0,
+    "Test::Rinci::GenFuncTest" => 0
   },
-  "script_files" => [],
-  "test_requires" => {
+  "TEST_REQUIRES" => {
     "Capture::Tiny" => 0,
     "Test::More" => "0.88",
     "blib" => 0
+  },
+  "VERSION" => "0.13",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
 
-unless ( eval { Module::Build->VERSION(0.4004) } ) {
-  my $tr = delete $module_build_args{test_requires};
-  my $br = $module_build_args{build_requires};
+unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
+  my $tr = delete $WriteMakefileArgs{TEST_REQUIRES};
+  my $br = $WriteMakefileArgs{BUILD_REQUIRES};
   for my $mod ( keys %$tr ) {
     if ( exists $br->{$mod} ) {
       $br->{$mod} = $tr->{$mod} if $tr->{$mod} > $br->{$mod};
@@ -89,6 +91,23 @@ unless ( eval { Module::Build->VERSION(0.4004) } ) {
   }
 }
 
-my $build = Module::Build->new(%module_build_args);
+unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
+  my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
+  my $pp = $WriteMakefileArgs{PREREQ_PM};
+  for my $mod ( keys %$br ) {
+    if ( exists $pp->{$mod} ) {
+      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
+    }
+    else {
+      $pp->{$mod} = $br->{$mod};
+    }
+  }
+}
 
-$build->create_build_script;
+delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
+  unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
+
+WriteMakefile(%WriteMakefileArgs);
+
+
+
