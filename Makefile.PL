@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Install all Perinci:: modules",
+  "ABSTRACT" => "Install all Perinci-related modules",
   "AUTHOR" => "Steven Haryanto <stevenharyanto\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -64,14 +64,14 @@ my %WriteMakefileArgs = (
     "Rinci" => 0,
     "Rinci::Schema" => 0,
     "Test::Rinci" => 0,
-    "Test::Rinci::GenFuncTest" => 0
+    "Test::Rinci::FuncResult" => 0
   },
   "TEST_REQUIRES" => {
     "Capture::Tiny" => 0,
     "Test::More" => "0.88",
     "blib" => 0
   },
-  "VERSION" => "0.13",
+  "VERSION" => "0.14",
   "test" => {
     "TESTS" => "t/*.t"
   }

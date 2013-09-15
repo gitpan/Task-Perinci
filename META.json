@@ -1,5 +1,5 @@
 {
-   "abstract" : "Install all Perinci:: modules",
+   "abstract" : "Install all Perinci-related modules",
    "author" : [
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
@@ -70,7 +70,7 @@
             "Rinci" : "0",
             "Rinci::Schema" : "0",
             "Test::Rinci" : "0",
-            "Test::Rinci::GenFuncTest" : "0"
+            "Test::Rinci::FuncResult" : "0"
          }
       },
       "test" : {
@@ -88,6 +88,6 @@
          "url" : "http://github.com/sharyanto/perl-Task-Perinci"
       }
    },
-   "version" : "0.13"
+   "version" : "0.14"
 }
 
