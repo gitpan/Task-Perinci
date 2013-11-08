@@ -1,6 +1,6 @@
 package Task::Perinci;
 
-our $VERSION = '0.15'; # VERSION
+our $VERSION = '0.16'; # VERSION
 
 1;
 # ABSTRACT: Install all Perinci-related modules
@@ -9,17 +9,24 @@ __END__
 
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
 Task::Perinci - Install all Perinci-related modules
 
 =head1 VERSION
 
-version 0.15
+version 0.16
 
 =head1 DESCRIPTION
 
 This task will install all Perinci-related modules.
+
+=head1 FUNCTIONS
+
+
+None are exported by default, but they are exportable.
 
 =head1 TASK CONTENTS
 
@@ -41,8 +48,6 @@ This task will install all Perinci-related modules.
 
 =head3 L<Perinci::Access::Simple::Server>
 
-=head3 L<Perinci::BashComplete>
-
 =head3 L<Perinci::CmdLine>
 
 =head3 L<Perinci::Easy>
@@ -59,7 +64,11 @@ This task will install all Perinci-related modules.
 
 =head3 L<Perinci::Result::Format>
 
+=head3 L<Perinci::Sub::Complete>
+
 =head3 L<Perinci::Sub::ConvertArgs::Array>
+
+=head3 L<Perinci::Sub::ConvertArgs::Argv>
 
 =head3 L<Perinci::Sub::Dep::pm>
 
@@ -116,6 +125,23 @@ This task will install all Perinci-related modules.
 =head3 L<Test::Rinci>
 
 =head3 L<Gen::Test::Rinci::FuncResult>
+
+=head1 HOMEPAGE
+
+Please visit the project's homepage at L<https://metacpan.org/release/Task-Perinci>.
+
+=head1 SOURCE
+
+Source repository is at L<https://github.com/sharyanto/perl-Task-Perinci>.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Perinci>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =head1 AUTHOR
 

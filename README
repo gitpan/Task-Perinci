@@ -2,10 +2,13 @@ NAME
     Task::Perinci - Install all Perinci-related modules
 
 VERSION
-    version 0.15
+    version 0.16
 
 DESCRIPTION
     This task will install all Perinci-related modules.
+
+FUNCTIONS
+    None are exported by default, but they are exportable.
 
 TASK CONTENTS
   Included modules
@@ -17,7 +20,6 @@ TASK CONTENTS
    Perinci::Access::Perl
    Perinci::Access::Simple::Client
    Perinci::Access::Simple::Server
-   Perinci::BashComplete
    Perinci::CmdLine
    Perinci::Easy
    Perinci::Examples
@@ -26,7 +28,9 @@ TASK CONTENTS
    Perinci::Gen::ForModule
    Perinci::Object
    Perinci::Result::Format
+   Perinci::Sub::Complete
    Perinci::Sub::ConvertArgs::Array
+   Perinci::Sub::ConvertArgs::Argv
    Perinci::Sub::Dep::pm
    Perinci::Sub::DepChecker
    Perinci::Sub::Gen
@@ -56,6 +60,21 @@ TASK CONTENTS
    Rinci::Schema
    Test::Rinci
    Gen::Test::Rinci::FuncResult
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Task-Perinci>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Task-Perinci>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Perinci>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 

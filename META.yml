@@ -3,13 +3,14 @@ abstract: 'Install all Perinci-related modules'
 author:
   - 'Steven Haryanto <stevenharyanto@gmail.com>'
 build_requires:
-  Capture::Tiny: 0
-  Test::More: 0.88
-  blib: 0
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Dist::Zilla version 4.300038, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,7 +26,6 @@ requires:
   Perinci::Access::Perl: 0
   Perinci::Access::Simple::Client: 0
   Perinci::Access::Simple::Server: 0
-  Perinci::BashComplete: 0
   Perinci::CmdLine: 0
   Perinci::Easy: 0
   Perinci::Examples: 0
@@ -34,6 +34,8 @@ requires:
   Perinci::Gen::ForModule: 0
   Perinci::Object: 0
   Perinci::Result::Format: 0
+  Perinci::Sub::Complete: 0
+  Perinci::Sub::ConvertArgs::Argv: 0
   Perinci::Sub::ConvertArgs::Array: 0
   Perinci::Sub::Dep::pm: 0
   Perinci::Sub::DepChecker: 0
@@ -62,6 +64,7 @@ requires:
   Rinci::Schema: 0
   Test::Rinci: 0
 resources:
-  homepage: http://search.cpan.org/dist/Task-Perinci/
-  repository: http://github.com/sharyanto/perl-Task-Perinci
-version: 0.15
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Task-Perinci
+  homepage: https://metacpan.org/release/Task-Perinci
+  repository: git://github.com/sharyanto/perl-Task-Perinci.git
+version: 0.16

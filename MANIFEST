@@ -11,3 +11,4 @@ lib/Task/Perinci.pm
 t/00-compile.t
 t/release-rinci.t
 t/task-bogus.t
+weaver.ini

@@ -29,7 +29,6 @@ my %WriteMakefileArgs = (
     "Perinci::Access::Perl" => 0,
     "Perinci::Access::Simple::Client" => 0,
     "Perinci::Access::Simple::Server" => 0,
-    "Perinci::BashComplete" => 0,
     "Perinci::CmdLine" => 0,
     "Perinci::Easy" => 0,
     "Perinci::Examples" => 0,
@@ -38,6 +37,8 @@ my %WriteMakefileArgs = (
     "Perinci::Gen::ForModule" => 0,
     "Perinci::Object" => 0,
     "Perinci::Result::Format" => 0,
+    "Perinci::Sub::Complete" => 0,
+    "Perinci::Sub::ConvertArgs::Argv" => 0,
     "Perinci::Sub::ConvertArgs::Array" => 0,
     "Perinci::Sub::Dep::pm" => 0,
     "Perinci::Sub::DepChecker" => 0,
@@ -67,11 +68,12 @@ my %WriteMakefileArgs = (
     "Test::Rinci" => 0
   },
   "TEST_REQUIRES" => {
-    "Capture::Tiny" => 0,
-    "Test::More" => "0.88",
-    "blib" => 0
+    "File::Spec" => 0,
+    "IO::Handle" => 0,
+    "IPC::Open3" => 0,
+    "Test::More" => 0
   },
-  "VERSION" => "0.15",
+  "VERSION" => "0.16",
   "test" => {
     "TESTS" => "t/*.t"
   }
